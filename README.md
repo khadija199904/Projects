@@ -28,15 +28,15 @@ To run the code in this repository, you need the following:
    Description:
 This project aims to classify sentiments (positive, negative, neutral, Irrelevant) from Twitter data. It uses either Logistic Regression or Bernoulli Naive Bayes (BernoulliNB) with Bag of Words (BoW) or TF-IDF for text vectorization to analyze the sentiment expressed in tweets.
 
-   Dataset:
-The dataset used in this project is available at Kaggle: Twitter Entity Sentiment Analysis.
+   Dataset :
+ The dataset used in this project is available at Kaggle: Twitter Entity Sentiment Analysis.
 
   Dataset Content: The dataset consists of tweets labeled by sentiment (positive, negative, neutral), and contains the following fields:
 
- id: The unique identifier for the tweet.
-entity: The entity or topic in the tweet.
-sentiment: The sentiment label (positive, negative, neutral).
-text: The text of the tweet.
+ - id: The unique identifier for the tweet.
+ - entity: The entity or topic in the tweet.
+ - sentiment: The sentiment label (positive, negative, neutral).
+ - text: The text of the tweet.
 
   Key Features:
 
