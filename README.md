@@ -7,7 +7,7 @@ Welcome to my portfolio of data science and machine learning projects. This repo
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Project List](#project-list)
-  - [1. twitter sentiment analysis](#1-real-estate-price-prediction)
+  - [1. twitter sentiment analysis](#1-twitter-sentiment-analysis)
 - [Contact](#contact)
 
 ---
@@ -25,19 +25,20 @@ To run the code in this repository, you need the following:
 
 ## Project List
 ## 1. Twitter Sentiment Analysis
-Description:
+   Description:
 This project aims to classify sentiments (positive, negative, neutral, Irrelevant) from Twitter data. It uses either Logistic Regression or Bernoulli Naive Bayes (BernoulliNB) with Bag of Words (BoW) or TF-IDF for text vectorization to analyze the sentiment expressed in tweets.
 
-Dataset:
+   Dataset:
 The dataset used in this project is available at Kaggle: Twitter Entity Sentiment Analysis.
 
-Dataset Content: The dataset consists of tweets labeled by sentiment (positive, negative, neutral), and contains the following fields:
+  Dataset Content: The dataset consists of tweets labeled by sentiment (positive, negative, neutral), and contains the following fields:
+
  id: The unique identifier for the tweet.
 entity: The entity or topic in the tweet.
 sentiment: The sentiment label (positive, negative, neutral).
 text: The text of the tweet.
 
-Key Features:
+  Key Features:
 
 Preprocesses tweets (cleaning, tokenization, stopword removal, etc.).
 Uses either Bag of Words (BoW) or TF-IDF to transform text data into numerical vectors.
